@@ -30,7 +30,7 @@
     <dependency>
       <groupId>org.apache.openejb</groupId>
       <artifactId>javaee-api</artifactId>
-      <version>6.0-5</version>
+      <version>6.0-6</version>
       <scope>provided</scope>
     </dependency>
 
@@ -100,8 +100,10 @@
       <plugin>
         <groupId>org.apache.openejb.maven</groupId>
         <artifactId>tomee-maven-plugin</artifactId>
-        <version>1.6.0</version>
+        <version>${tomee.version}</version>
         <configuration>
+            <tomeeVersion>${tomee.version}</tomeeVersion>
+            <tomeeClassifier>plus</tomeeClassifier>
           <context>ROOT</context>
         </configuration>
       </plugin>
@@ -145,6 +147,7 @@
   </repositories>
 
   <properties>
+    <tomee.version>1.6.0.2</tomee.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 </project>
