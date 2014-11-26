@@ -17,3 +17,5 @@ mvn clean package tomee:run
 ```
 
 And go to: http://localhost:8080
+
+To test JSTL -> http://localhost:8080/test.jsp
