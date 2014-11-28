@@ -147,7 +147,7 @@
   </repositories>
 
   <properties>
-    <tomee.version>1.6.0.2</tomee.version>
+    <tomee.version>1.7.1</tomee.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 </project>
